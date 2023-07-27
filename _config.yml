@@ -16,7 +16,7 @@
 #theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme@3.2.0
 skin: "/assets/css/skins/default.css"
-locale: en-US
+locale: zh-cn # 语言设置en-US
 title: "My Awesome Site"
 description: "It really is the best."
 baseurl: # the subpath of your site, e.g. "/blog"
