@@ -1,8 +1,8 @@
 # Sample site navigation bar links
 
-- title: Home
+- title: 首页
   url: /
-- title: Posts
+- title: 博客
   url: /posts/
 - title: Categories
   url: /categories/
@@ -10,7 +10,7 @@
   url: /tags/
 - title: Recipes
   url: /recipes/
-- title: Search
+- title: 搜索
   url: /search/
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html

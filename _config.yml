@@ -114,19 +114,19 @@ author:
       url: https://github.com/zyt1678532032
       icon: fab fa-github-square
     - title: Instagram
-      url: https://www.instagram.com/yantong_zhang_/
+      url: https://www.instagram.com/yantong_zhang_
       icon: fab fa-instagram
 
 # Footer Links
 footer_links:
   - title: Twitter
-    url: https://twitter.com/mmistakes
+    url: # https://twitter.com/mmistakes
     icon: fab fa-twitter-square
   - title: Instagram
-    url: https://instagram.com/mmistakes
+    url: https://www.instagram.com/yantong_zhang_
     icon: fab fa-instagram
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/zyt1678532032
     icon: fab fa-github-square
   - title: Feed
     url: atom.xml

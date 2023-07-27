@@ -1,5 +1,5 @@
 ---
-title: Post Archive
+title: 博客内容
 layout: posts
 permalink: /posts/
 show_excerpts: true
