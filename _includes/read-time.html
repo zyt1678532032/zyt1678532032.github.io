@@ -11,6 +11,6 @@
   {%- if words < words_per_minute -%}
     约1{{ min_read }}
   {%- else -%}
-    约{{ words | divided_by:words_per_minute }} {{ min_read }}
+    约{{ words | divided_by:words_per_minute }}{{ min_read }}
   {%- endif -%}
 </span>
