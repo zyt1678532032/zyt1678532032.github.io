@@ -66,21 +66,21 @@ tag_archive_path: "/tags/#"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+#exclude:
+#  - Gemfile
+#  - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-remote-theme
+#plugins:
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#  - jekyll-feed
+#  - jekyll-paginate
+#  - jekyll-remote-theme
 
 # Collections
 collections:
