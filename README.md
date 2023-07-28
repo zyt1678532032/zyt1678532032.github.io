@@ -1,73 +1,8 @@
-# [So Simple Jekyll Theme][1]
-
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square)](https://raw.githubusercontent.com/mmistakes/so-simple-theme/master/LICENSE)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg?style=flat-square)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/jekyll-theme-so-simple.svg?style=flat-square)](https://rubygems.org/gems/jekyll-theme-so-simple)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?style=flat-square&logo=paypal)](https://www.paypal.me/mmistakes)
-[![Donate to this project using Buy Me A Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg?style=flat-square)](https://www.buymeacoffee.com/mmistakes)
-
-So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your words and pictures. Built to provide:
-
-* A variety of layouts with clean and readable typography.
-* [Microformats](http://microformats.org/wiki/microformats2) markup to make post content machine-readable and discoverable.
-* Disqus Comments and Google Analytics support.
-* SEO best practices via [Jekyll SEO Tag][jekyll-seo-tag].
-* Options to customize the theme and make it your own.
-
-**If you enjoy this theme, please consider sponsoring:**
-
-[!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://www.buymeacoffee.com/mmistakes)
- [![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
-
-:sparkles: **See what's new in the [CHANGELOG](CHANGELOG.md).** :blue_book: **[v2 documentation](README-OLD.md)**.
-
-[![So Simple live preview][2]][1]
-
-![So Simple layouts](screenshots.jpg)
-
-[1]: https://mmistakes.github.io/so-simple-theme/
-[2]: screenshot.png "site preview"
-
-## Sample Pages
-
-| Description |    |    |
-| ----------- | -- | -- |
-| A post with a large hero image. | [Preview][post-hero-preview] | [Source][post-hero-source] |
-| A post with a variety of common HTML elements showing how the theme styles them. | [Preview][post-html-elements-preview] | [Source][post-html-elements-source] |
-| Post displaying highlighted code. | [Preview][post-syntax-preview] | [Source][post-syntax-code] |
-| A post displaying images with a variety of alignments. | [Preview][post-image-alignment-preview] | [Source][post-image-alignment-source] |
-| All posts grouped by year. | [Preview][posts-year-preview] | [Source][posts-year-source] |
-| All posts grouped by category. | [Preview][posts-category-preview] | [Source][posts-category-source] |
-| All posts grouped by tag. | [Preview][posts-tag-preview] | [Source][posts-tag-source] |
-| Category page. | [Preview][category-page-preview] | [Source][category-page-source] |
-| Listing of documents in grid view. | [Preview][grid-view-preview] | [Source][grid-view-source] |
-
-[post-hero-preview]: https://mmistakes.github.io/so-simple-theme/layout/layout-hero-image/
-[post-hero-source]: docs/_posts/2012-03-14-layout-hero-image.md
-[post-html-elements-preview]: https://mmistakes.github.io/so-simple-theme/markup/markup-html-elements-and-formatting/
-[post-html-elements-source]: docs/_posts/2013-01-11-markup-html-elements-and-formatting.md
-[post-syntax-preview]: https://mmistakes.github.io/so-simple-theme/markup-syntax-highlighting/
-[post-syntax-code]: docs/_posts/2013-08-16-markup-syntax-highlighting.md
-[post-image-alignment-preview]: https://mmistakes.github.io/so-simple-theme/markup/markup-image-alignment/
-[post-image-alignment-source]: docs/_posts/2013-01-10-markup-image-alignment.md
-[posts-year-preview]: https://mmistakes.github.io/so-simple-theme/posts/
-[posts-year-source]: docs/posts.md
-[posts-category-preview]: https://mmistakes.github.io/so-simple-theme/categories/
-[posts-category-source]: docs/categories.md
-[posts-tag-preview]: https://mmistakes.github.io/so-simple-theme/tags/
-[posts-tag-source]: docs/tags.md
-[category-page-preview]: https://mmistakes.github.io/so-simple-theme/categories/edge-case/
-[category-page-source]: docs/edge-case.md
-[grid-view-preview]: https://mmistakes.github.io/so-simple-theme/recipes/
-[grid-view-source]: docs/recipes.md
-
-Additional [sample posts](https://mmistakes.github.io/so-simple-theme/posts/) can be view on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs) folder.
-
-## Installation
+## 安装
 
 If you're running Jekyll v3.5+ and self-hosting you can quickly install the theme as a Ruby gem. If you're hosting with [**GitHub Pages**](https://pages.github.com/) you can install as a [remote theme](https://github.com/benbalter/jekyll-remote-theme) or directly copy all of the theme files (see [structure](#structure) below) into your project.
 
-### Ruby Gem Method
+### 本地运行
 
 1. Add this line to your Jekyll site's `Gemfile` (or [create one](example/Gemfile)):
 
@@ -87,68 +22,7 @@ If you're running Jekyll v3.5+ and self-hosting you can quickly install the them
    bundle install
    ```
 
-### GitHub Pages Method
-
-GitHub Pages has added [full support](https://github.com/blog/2464-use-any-theme-with-github-pages) for any GitHub-hosted theme.
-
-1. Replace `gem "jekyll"` with:
-
-   ```ruby
-   gem "github-pages", group: :jekyll_plugins
-   ```
-
-2. Run `bundle update` and verify that all gems install properly.
-
-3. Add `remote_theme: "mmistakes/so-simple-theme@3.2.0"` to your
-   `_config.yml` file. Remove any other `theme:` or `remote_theme:` entries.
-
----
-
-**Note:** Your Jekyll site should be viewable immediately at <http://USERNAME.github.io>. If it's not, you can force a rebuild by pushing empty commits to GitHub (see below for more details).
-
-If you're hosting several Jekyll based sites under the same GitHub username you will have to use Project Pages instead of User Pages. Essentially you rename the repo to something other than **USERNAME.github.io** and create a `gh-pages` branch off of `master`. For more details on how this works, check [GitHub's documentation](https://help.github.com/articles/user-organization-and-project-pages/).
-
-#### Remove the Unnecessary
-
-If you forked or downloaded the [`so-simple-theme` repo](https://github.com/mmistakes/so-simple-theme) you can safely remove the following files and folders:
-
-* `.github`
-* `docs`
-* `example`
-* `.editorconfig`
-* `.gitattributes`
-* `banner.js`
-* `CHANGELOG.md`
-* `Gemfile`
-* `jekyll-theme-so-simple.gemspec`
-* `package.json`
-* `Rakefile`
-* `README.md`
-* `README-OLD.md`
-* `screenshot.png`
-
-## Upgrading
-
-If you're using the Ruby Gem or remote theme versions of So Simple, upgrading is fairly painless.
-
-To check which version you are currently using, view the source of your built site and you should something similar to:
-
-```
-<!--
-    So Simple Jekyll Theme 3.0.0
-    Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
-    Free for personal and commercial use under the MIT license
-    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
--->
-```
-
-This will be at the top of every `.html` file, `/assets/css/main.css`, and `/assets/js/main.js`.
-
-### Ruby Gem
-
-Simply run `bundle update` if you're using Bundler (have a `Gemfile`) or `gem update jekyll-theme-so-simple` if you're not.
-
-### Remote Theme
+### GitHub Pages 远程配置
 
 Verify you have the [latest version](https://github.com/mmistakes/so-simple-theme/releases) assigned in `_config.yml`
 
@@ -156,59 +30,7 @@ Verify you have the [latest version](https://github.com/mmistakes/so-simple-them
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 ```
 
-Note: If `@x.x.x` is omitted the theme's current `master` branch will be used. It is advised to ["lock" `remote_theme`](https://github.com/benbalter/jekyll-remote-theme#declaring-your-theme) at a specific version to avoid introducing breaking changes to your site.
-
-The next step requires rebuilding your [GitHub Pages](https://pages.github.com/) site so it can pull down the latest theme updates. This can be achieved by pushing up a commit to your GitHub repo.
-
-An empty commit will get the job done too if you don't have anything to push at the moment:
-
-```terminal
-git commit --allow-empty -m "Force rebuild of site"
-```
-
-### Use Git
-
-If you want to get the most out of the Jekyll + GitHub Pages workflow, then you'll need to utilize Git. To pull down theme updates manually you must first ensure there's an upstream remote. If you forked the theme's repo then you're likely good to go.
-
-To double check, run `git remote -v` and verify that you can fetch from `origin https://github.com/mmistakes/so-simple-theme.git`.
-
-To add it you can do the following:
-
-```terminal
-git remote add upstream https://github.com/mmistakes/so-simple-theme.git
-```
-
-#### Pull Down Updates
-
-Now you can pull any commits made to theme's `master` branch with:
-
-```terminal
-git pull upstream master
-```
-
-Depending on the amount of customizations you've made after forking, there's likely to be merge conflicts. Work through any conflicting files Git flags, staging the changes you wish to keep, and then commit them.
-
-### Update Files Manually
-
-Another way of dealing with updates is [downloading the theme](https://github.com/mmistakes/so-simple-theme/archive/master.zip) --- replacing your layouts, includes, and assets with the newer ones manually. To be sure that you don't miss any changes review the theme's [commit history](https://github.com/mmistakes/so-simple-theme/commits/master) to see what has changed.
-
-Here's a quick checklist of the important folders/files you'll want to be mindful of:
-
-| Name                   |                                                                                |
-| ---------------------- | ------------------------------------------------------------------------------ |
-| `_layouts`             | Replace all. Apply edits if you customized any layouts.                        |
-| `_includes`            | Replace all. Apply edits if you customized any includes.                       |
-| `assets`               | Replace all. Apply edits if you customized stylesheets or scripts.             |
-| `_sass`                | Replace all. Apply edits if you customized Sass partials.                      |
-| `_data/navigation.yml` | Safe to keep. Verify that there were no major structural changes or additions. |
-| `_data/text.yml`       | Safe to keep. Verify that there were no major structural changes or additions. |
-| `_config.yml`          | Safe to keep. Verify that there were no major structural changes or additions. |
-
----
-
-**Note:** If you're not seeing the latest version, be sure to flush browser and CDN caches. Depending on your hosting environment older versions of `/assets/css/main.css`, `/assets/js/main.min.js`, or `*.html` files may be cached.
-
-## Structure
+## 项目结构
 
 Layouts, includes, Sass partials, and data files are all placed in their default locations. Stylesheets and scripts can be found in `assets`, and a few development related files in the project's root directory.
 
@@ -230,24 +52,7 @@ Layouts, includes, Sass partials, and data files are all placed in their default
 └── index.md            # sample home page (recent posts/not paginated)
 ```
 
-### Starting Fresh
-
-After creating a `Gemfile` and installing the theme you'll need to add and edit the following files:
-
-* [`_config.yml`](_config.yml)
-* [`/_data/navigation.yml`](_data/navigation.yml)
-* [`/_data/text.yml`](_data/text.yml)
-* [`index.md`](index.md)
-
-**Note:** Consult the [**pagination**](#pagination) documentation below for instructions on how to enable it on the home page.
-
-### Starting from `jekyll new`
-
-Using the `jekyll new` command will get you up and running the quickest.
-
-Edit your `Gemfile` and `_config.yml` files following the [installation guide](#installation) above and [configuration guide](#configuring) below, then create `_data/text.yml` as instructed earlier.
-
-## Configuring
+### _config.yml 配置文件内容
 
 Configuration of site-wide elements (`locale`, `title`, `description`, `url`, `logo`, `author`, etc.) happens in your project's `_config.yml`. See the [example configuration](example/_config.yml) in this repo for additional reference.
 
@@ -260,7 +65,7 @@ Configuration of site-wide elements (`locale`, `title`, `description`, `url`, `l
 | `url`         | The full URL to your site.                                               | `"https://your-site.com"`           |
 | `logo`        | Path to a site-wide logo used in masthead.                                | `/images/your-logo.png`             |
 
-### Site Skin
+### 网站主题颜色
 
 Three skins (default, light, and dark) are available to change the color palette of the theme.
 
@@ -280,7 +85,7 @@ To use a custom skin other than the ones provided:
 2. Override and customize Sass variables as you see fit.
 3. Update the `skin` path in `_config.yml` to reference this new skin `.css` file.
 
-### Site Locale
+### 网站语言环境
 
 **`site.locale`** is used to declare the primary language for each web page within the site.
 
@@ -290,7 +95,7 @@ Properly setting the locale is important for associating localized text found in
 
 **Note:** The theme defaults to text in English (`en`, `en-US`, `en-GB`). If you change locale in `_config.yml` to something else be sure to add the corresponding locale key and translated text to [`_data/text.yml`](_data/text.yml).
 
-### Site URL
+### 网站URL
 
 The base hostname and protocol for your site. If you're hosting with GitHub Pages this will be something like `url: "https://github.io.mmistakes"` or `url: "https://your-site.com"` if you have a custom domain name.
 
@@ -298,7 +103,7 @@ GitHub Pages now [forces `https://` for new sites](https://help.github.com/artic
 
 **Note:** Jekyll overrides the value of `url` with `http://localhost:4000` when running `jekyll serve` locally in development. If you want to avoid this behavior set `JEKYLL_ENV=production` to [force the environment](http://jekyllrb.com/docs/configuration/#specifying-a-jekyll-environment-at-build-time) to production.
 
-### Site Base URL
+### 网站 Base URL
 
 This option causes all kinds of confusion in the Jekyll community. If you're not hosting your site as a [GitHub Project Page](https://help.github.com/articles/user-organization-and-project-pages/) or in a subfolder (e.g., `/blog`), then don't mess with it.
 
@@ -312,7 +117,7 @@ To use the example values above the following image path of `{{ '/images/my-imag
 
 Without the `relative_url` filter that asset path would be missing `/blog` and you'd have a broken image on your page.
 
-### Date Format
+### 时间格式
 
 You can change the default date format by specifying `date_format` in `_config.yml`. It accepts any of the standard [Liquid date formats](http://shopify.github.io/liquid/filters/date/).
 
@@ -322,7 +127,7 @@ For example the default value of `"%B %-d, %Y"` could be changed like so:
 date_format: "%Y-%m-%d"
 ```
 
-### Reading Time
+### 阅读博客内容的大约时间控制
 
 Enable estimated reading time snippets site-wide with `read_time: true`. **`200`** has been set as the default words per minute value — which can be changed via `words_per_minute` in your `_config.yml` file.
 
@@ -331,7 +136,7 @@ read_time: true
 words_per_minute: 200
 ```
 
-### Mathematics
+### 数学
 
 Enable [**MathJax**](https://www.mathjax.org) (a JavaScript display engine for mathematics) site-wide with
 
@@ -354,7 +159,7 @@ mathjax:
   tags: "ams"              # "none", "ams" (default), "all"
 ```
 
-### Google Fonts
+### 字体
 
 Easily use [**Google Fonts**](https://fonts.google.com/) throughout your site by replacing the font `name` and `weights` accordingly. Suggested font pairings are as follows:
 
@@ -383,7 +188,7 @@ $meta-font-family: $serif-font-family;
 
 See [stylesheet documentation](#customizing-sass-scss) below for more information on overriding the theme's default variables.
 
-### Pagination
+### 分页
 
 Break up the main listing of posts on the home page across multiple pages by [enabling pagination](http://jekyllrb.com/docs/pagination/).
 
@@ -409,7 +214,7 @@ Break up the main listing of posts on the home page across multiple pages by [en
    paginate: true
    ```
 
-### Search
+### 搜索功能
 
 To index the full content of your documents for use in a [search page](#layout-search), set `search_full_content` to `true` in `_config.yml`:
 
@@ -419,7 +224,7 @@ search_full_content: true
 
 **Note:** Large amounts of posts will increase the size of the search index, impacting page load performance. Setting `search_full_content` to `false` (the default) restricts indexing to the first 50 words of body content.
 
-### Taxonomy Pages
+### 分类页
 
 By default, category and tags added to a post are not linked to taxonomy archive pages. To enable this behavior and link to pages with posts grouped by category or tag, add the following:
 
@@ -442,7 +247,7 @@ You'd need to change `category_archive_path` to `"/foo/#` for category links to 
 
 **Note:** You can create dedicated category and tag pages manually with [`layout: category`](#layout-category) and [`layout: tag`](#layout-tag). Or use plugins like [**jekyll-archives**][jekyll-archives] or [**jekyll-paginate-v2**](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-AUTOPAGES.md) to generate them automatically.
 
-### Comments (via Disqus)
+### 评论功能 (via Disqus)
 
 If you have a [**Disqus**](https://disqus.com/) account, you can show a comments section below each post.
 
@@ -475,7 +280,7 @@ For more configuration options be sure to consult the documentation for:
 
 ---
 
-## Layouts
+## 布局 Layout
 
 This theme provides the following layouts, which you can use by setting the `layout` [front matter](https://jekyllrb.com/docs/frontmatter/) on each page, like so:
 
@@ -704,7 +509,7 @@ search_full_content: true
 
 **Note:** Large amounts of posts will increase the size of the search index, impacting page load performance. Setting `search_full_content` to `false` (the default) restricts indexing to the first 50 words of body content.
 
-## Images
+## 图片 Images
 
 Suggested image sizes in pixels are as follows:
 
@@ -716,14 +521,14 @@ Suggested image sizes in pixels are as follows:
 | `page.image.thumbnail` | Small document image used in grid view. | `400 x 200` |
 | `author.picture` | Author picture in post sidebar. | `150 x 150` |
 
-## Theme Text
+## 主题文字 Theme Text
 
 To change text found throughout the theme, copy the following
 [`/_data/text.yml`](_data/text.yml) file and customize as necessary.
 
 When adding new texts be sure the keys match these [language/country codes](<https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx>), that may be used for [`site.locale`](#site-locale).
 
-## Navigation
+## 导航 Navigation
 
 To define what pages are linked in the top navigation:
 
@@ -744,7 +549,7 @@ To define what pages are linked in the top navigation:
 
 **Note:** Long titles or many links may cause the navigation bar to break into multiple lines, especially on smaller screens. Keep this in mind as you develop your site's primary navigation.
 
-## Author
+## 作者 Author
 
 Author information is used as meta data for post "by lines" and propagates the `creator` field of Twitter summary cards with the following front matter in `_config.yml`:
 
@@ -786,11 +591,11 @@ drlight:
 
 Currently `author.picture` is only used in `layout: post`. Recommended size is `150 x 150` pixels.
 
-## Footer
+## 底部内容 Footer
 
 The footer links and copyright text can both be customized.
 
-### Footer Links
+### 底部链接 Footer Links
 
 Footer links are set in `_config.yml` under the `footer_links` key.
 
@@ -1084,72 +889,6 @@ footer_scripts:
 
 The theme utilizes the [**Font Awesome** SVG with JS](https://fontawesome.com/) version for iconography. Prominent locations these icons appear are in the author sidebar and footer links.
 
----
-
-## Development
-
-To set up your environment to develop this theme:
-
-1. Clone this repo
-2. `cd` into `/example` and run `bundle install`.
-
-To test the theme locally as you make changes to it:
-
-1. `cd` into the root folder of the repo (e.g. `jekyll-theme-so-simple`).
-2. Run `bundle exec rake preview` and open your browser to
-   `http://localhost:4000/example/`.
-
-This starts a Jekyll server using the theme's files and contents of the `example/` directory. As modifications are made, refresh your browser to see any changes.
-
-### JavaScript Build Script
-
-In an effort to reduce dependencies a set of [npm scripts](https://css-tricks.com/why-npm-scripts/) are used to build `main.min.js` instead of task runners like [Gulp](http://gulpjs.com/) or [Grunt](http://gruntjs.com/). If those tools are more your style then by all means use them instead :wink:.
-
-To get started:
-
-1. Install Node.js.
-2. `cd` to the root of your project.
-3. Install all of the dependencies by running npm install.
-
-**Note:** If you upgraded from a previous version of the theme be sure you copied over [`package.json`](package.json) prior to running `npm install`. You may also need to remove your `node_modules` directory as well.
-
-If all goes well, executing `npm run build:js` will compress/concatenate `main.js` and all plugin scripts into `/assets/js/main.min.js`.
-
-## Contributing
-
-Found a typo in the documentation? Requesting a feature or
-[bug fix][issues]? Search through the open and closed issues before [submitting an issue][new-issue] to avoid duplication. 
-
-[Pull requests][using-pull-requests] are also appreciated. If this is your first time, it may be helpful to read up on the [GitHub Flow][github-flow].
-
-If your contribution adds or changes the theme's behavior, make sure to update the documentation and/or sample content. Documentation lives in README.md while sample posts, pages, and collections are in the [`docs`](docs) and [`example`](example) folders.
-
-[issues]: https://github.com/mmistakes/so-simple-theme/issues
-[new-issue]: https://github.com/mmistakes/so-simple-theme/issues/new
-[using-pull-requests]: https://help.github.com/articles/using-pull-requests/
-[github-flow]: https://guides.github.com/introduction/flow/
-
-### Pull Requests
-
-When submitting a pull request:
-
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g.
-   `my-awesome-new-feature`).
-3. Open a pull request on GitHub and describe what problem it solves.
-
----
-
-## Credits
-
-### Creator
-
-**Michael Rose**
-
-* <https://mademistakes.com>
-* <https://twitter.com/mmistakes>
-* <https://github.com/mmistakes>
-
 ### Icons + Demo Images:
 
 * [Font Awesome](https://fontawesome.com)
@@ -1165,59 +904,7 @@ When submitting a pull request:
 * [Lity](https://sorgalla.com/lity/)
 * [Lunr](http://lunrjs.com/)
 
----
 
-## License
-
-The MIT License (MIT)
-
-Copyright (c) 2013-2019 Michael Rose and contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-So Simple incorporates [Font Awesome](http://fontawesome.io/),
-Copyright (c) 2017 Dave Gandy.
-Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL)
-and [MIT License](http://opensource.org/licenses/MIT).
-
-So Simple incorporates photographs from [Unsplash](https://unsplash.com).
-
-So Simple incorporates photographs from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)
-
-So Simple incorporates [Breakpoint](http://breakpoint-sass.com/).
-Breakpoint is distributed under the terms of the [MIT/GPL Licenses](http://opensource.org/licenses/MIT).
-
-So Simple incorporates [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll),
-Copyright (c) 2017 Karl Swedberg.
-jQuery Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-So Simple incorporates [Lunr](http://lunrjs.com),
-Copyright (c) 2017 Oliver Nightingale.
-Lunr is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-So Simple incorporates [Lity](http://sorgalla.com/lity/),
-Copyright (c) 2015-2016, Jan Sorgalla.
-Lity is distributed under the terms of the MIT License](http://opensource.org/licenses/MIT).
-
-So Simple incorporates [Table of Contents Toggle](https://github.com/smithtimmytim/brightlycolored.org),
-Copyright (c) 2017 Timothy B. Smith.
-Table of Contents Toggle is distributed under the terms of the MIT License](http://opensource.org/licenses/MIT).
 
 [jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
 [jekyll-feed]: https://github.com/jekyll/jekyll-feed
