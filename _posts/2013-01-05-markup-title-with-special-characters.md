@@ -4,9 +4,6 @@ categories:
   - Markup
 tags:
   - html
-  - markup
-  - post
-  - title
 last_modified_at: 2017-03-09T12:23:27-05:00
 ---
 

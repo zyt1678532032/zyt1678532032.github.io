@@ -4,9 +4,6 @@ categories:
   - Markup
 tags:
   - alignment
-  - content
-  - css
-  - markup
 last_modified_at: 2017-03-09T12:17:03-05:00
 ---
 

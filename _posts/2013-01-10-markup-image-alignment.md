@@ -8,11 +8,6 @@ categories:
   - Markup
 tags:
   - alignment
-  - captions
-  - content
-  - css
-  - image
-  - markup
 last_modified_at: 2018-02-05T16:19:20-05:00
 ---
 
