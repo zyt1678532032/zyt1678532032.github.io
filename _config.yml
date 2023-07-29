@@ -19,7 +19,7 @@ remote_theme: mmistakes/so-simple-theme@3.2.0
 
 skin: "/assets/css/skins/default.css"
 locale: zh-cn # 语言设置en-US
-title: "测试标题"
+title: ""
 description: "祝来到我博客的每一位都有个美好的一天～"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
