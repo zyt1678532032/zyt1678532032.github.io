@@ -13,18 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 #theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme@3.2.0
+
 skin: "/assets/css/skins/default.css"
 locale: zh-cn # 语言设置en-US
-#title: "My Awesome Site"
-#description: "It really is the best."
+#title: "祝来到我博客的每一位都有个美好的一天～"
+description: "祝来到我博客的每一位都有个美好的一天～"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+#logo: "/images/logo.jpg" # path of site logo, e.g. "/images/logo.png"
 date_format: "%Y-%m-%d" # 时间设置
 read_time: true # reading time estimates, e.g. true
 words_per_minute: 200
+
 mathjax:
   enable: # MathJax equations, e.g. true, false (default)
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
