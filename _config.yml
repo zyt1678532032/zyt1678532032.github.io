@@ -48,7 +48,7 @@ liquid:
   error_mode: strict
 
 # Build settings
-permalink: /:categories/:title/
+#permalink: /:categories/:title/
 markdown: kramdown
 kramdown:
   input: GFM
@@ -78,18 +78,18 @@ tag_archive_path: "/tags/#"
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#plugins:
+plugins:
+  - jekyll-paginate
 #  - jekyll-seo-tag
 #  - jekyll-sitemap
 #  - jekyll-feed
-#  - jekyll-paginate
 #  - jekyll-remote-theme
 
 # Collections
 collections:
   recipes:
     output: true
-    permalink: /:collection/:path/
+#    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
