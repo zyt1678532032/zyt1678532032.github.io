@@ -2,7 +2,7 @@
 
 If you're running Jekyll v3.5+ and self-hosting you can quickly install the theme as a Ruby gem. If you're hosting with [**GitHub Pages**](https://pages.github.com/) you can install as a [remote theme](https://github.com/benbalter/jekyll-remote-theme) or directly copy all of the theme files (see [structure](#structure) below) into your project.
 
-**添加国内源**
+### 添加国内源
 
 ```ruby
 gem sources -a https://gems.ruby-china.com/
